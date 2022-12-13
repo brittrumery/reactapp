@@ -1,0 +1,38 @@
+#weatherDescription {
+  text-transform: capitalize;
+}
+.todayDate,
+.time {
+  font-size: 25px;
+}
+.weather-app {
+  margin: 0 auto;
+  padding: 5px;
+  font-family: "Quicksand", sans-serif;
+}
+.weatherLocation {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.card-img-top {
+  width: 75%;
+}
+
+.container {
+  max-width: 65%;
+}
+
+.current-temp .active {
+  color: #113f67;
+  cursor: default;
+}
+.current-temp .active:hover {
+  text-decoration: none;
+}
+.weather-forecast {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
